@@ -166,4 +166,4 @@ h5, h6, h3, p {
     font-size: 0.9rem;
   }
 }
-<style
+</style>
