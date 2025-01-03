@@ -275,3 +275,155 @@
       </div>
     </div>
     </template>
+
+<style>
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Container Styles */
+.container-fluid {
+  padding: 20px;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+/* Link Styles */
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.nuxt-link-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #565e64;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+}
+
+.btn-warning:hover {
+  background-color: #d39e00;
+}
+
+/* Table Styles */
+.n4table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.n4table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableidentitas td:first-child {
+  text-align: center;
+  font-weight: bold;
+}
+
+.tableidentitas td {
+  vertical-align: top;
+}
+
+/* Statistic Cards */
+.card.bg-success,
+.card.bg-danger,
+.card.bg-warning,
+.card.bg-info {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.card.bg-success {
+  background-color: #28a745;
+}
+
+.card.bg-danger {
+  background-color: #dc3545;
+}
+
+.card.bg-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.card.bg-info {
+  background-color: #17a2b8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+</style>
