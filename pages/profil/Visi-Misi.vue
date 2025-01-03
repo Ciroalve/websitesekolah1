@@ -82,3 +82,43 @@
       </div>
     </div>
   </template>
+
+<style>
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+h4, h5 {
+  margin: 0;
+}
+
+/* Header Styles */
+.text-white {
+  color: #fff !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.rounded-3 {
+  border-radius: 16px !important;
+}
+
+.p-2, .p-1 {
+  p
+
+</style>
