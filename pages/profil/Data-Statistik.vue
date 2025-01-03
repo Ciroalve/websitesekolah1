@@ -63,6 +63,7 @@
     </div>
   </template>
 
+<<style scoped>
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
@@ -165,3 +166,4 @@ h5, h6, h3, p {
     font-size: 0.9rem;
   }
 }
+<style
